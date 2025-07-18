@@ -1,0 +1,76 @@
+.love-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff0f5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(255, 0, 128, 0.2);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.love-container h1 {
+  color: #ff1493;
+  margin-bottom: 20px;
+}
+
+.love-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: #fff;
+}
+
+.love-form button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.love-form button:hover {
+  background-color: #ff1493;
+}
+
+.result {
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in;
+}
+
+.result h2 {
+  color: #dc143c;
+}
+
+.score {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff1493;
+  margin: 10px 0;
+}
+
+.message {
+  font-size: 20px;
+  color: #800080;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.center-wrapper {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+  background: linear-gradient(to right, #ffe6f0, #ffe4e1); /* cute bg */
+}
